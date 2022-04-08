@@ -12,6 +12,7 @@
     --color6: #404040;
     --text: #000;
     --font: 'M PLUS Rounded 1c', sans-serif;
+    --currWidth: 1;
 }
 
 
@@ -203,9 +204,10 @@ a:hover {
   display:block;
   top:0;
   background-color:#66AB8C;
-  height:1000px;
+  height:400px;
   left:0;
   right:0;
+  width:var(--currWidth);
   z-index:-1;
 }
 
