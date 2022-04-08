@@ -17,4 +17,6 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+var sal = require('sal.js')
 sal();
+

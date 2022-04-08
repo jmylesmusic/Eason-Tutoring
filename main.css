@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 @import '~sal.js/sal.css';
+@import './node_modules/sal.js/dist/sal.css';
 
 :root {
     --background: #f8f9f9;
@@ -30,7 +31,6 @@ body {
   height:145px;
   left:0;
   top:0;
-  z-index:1;
 }
 
 #logo{
@@ -38,7 +38,6 @@ body {
   display:block;
   height:125px;
   padding:10px;
-  z-index:1;
 }
 
 .nav-menu {
@@ -207,7 +206,7 @@ a:hover {
   height:1000px;
   left:0;
   right:0;
-  z-index:-4;
+  z-index:-1;
 }
 
 @keyframes fadeIn {
