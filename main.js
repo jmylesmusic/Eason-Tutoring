@@ -20,4 +20,3 @@ function closeMenu() {
 var sal = require('sal.js');
 sal();
 
-let currWidth = 0;
