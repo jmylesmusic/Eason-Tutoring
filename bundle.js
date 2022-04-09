@@ -27,5 +27,9 @@ sal();
 
 },{}]},{},[1]);
 
-var img = document.getElementById('inspired').offsetWidth;
-console.log(img);
+document.documentElement.style.setProperty('--width', img);
+
+window.onresize = function() {
+    var img = document.getElementById('inspired').offsetWidth ;
+    document.documentElement.style.setProperty('--width', ${img}+px);
+};
