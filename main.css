@@ -189,25 +189,25 @@ a:hover {
   position: absolute;
   display:block;
   opacity:0;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 20%);
   margin: 0;
   color:var(--background);
-  font-size:28px;
+  font-size:2.5vw;
   text-shadow:-1px 2px #000;
   animation:fadeIn forwards 2s;
   animation-delay:2s;
   z-index:-4;
 }
 
-.subtext {
+.home-container div {
   position: absolute;
   display:block;
   opacity:1;
-  margin:0;
   color:var(--background);
-  font-size:28px;
-  text-shadow:-1px 2px #000;
-  margin-top:25px;
+  font-size: 1.5vw;
+  bottom:25px;
+  text-align: center;
+  width:100%;
 }
 
 .container-two {
