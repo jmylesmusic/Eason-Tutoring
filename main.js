@@ -20,3 +20,4 @@ function closeMenu() {
 var sal = require('sal.js');
 sal();
 
+  window.fitText( document.getElementById("responsive_headline") );

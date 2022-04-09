@@ -204,8 +204,8 @@ a:hover {
   display:block;
   opacity:1;
   color:var(--background);
-  font-size: 1.5vw;
-  bottom:25px;
+  text-shadow:-1px 1px #000;
+  bottom:20px;
   text-align: center;
   width:100%;
 }
