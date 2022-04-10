@@ -274,6 +274,7 @@ a:hover {
 
 
 #inspired-image-blob {
+  position:absolute;
   z-index:-1;
   max-width:100vw;
   bottom:220px;
