@@ -312,7 +312,7 @@ a:hover {
   fill: #F8F9F9;
 }
 
-.about-container-one {
+.home-container-one {
   position:absolute;
   display:flex;
   flex-flow:wrap;
@@ -381,7 +381,7 @@ a:hover {
   right:0px;
 }
 
-.about-container-two {
+.home-container-two {
   position:absolute;
   top:100%;
   width:calc(100% + 1.3px);
