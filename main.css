@@ -348,7 +348,7 @@ a:hover {
 
 .sub-slogan{
   align-self:auto;
-  color:var(--background);
+  color:#f1f2f2;
   font-size: 2vh;
   font-weight: 400;
   margin:auto;
