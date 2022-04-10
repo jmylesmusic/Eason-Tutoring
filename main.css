@@ -220,7 +220,7 @@ a:hover {
 }
 
 .home-container-one {
-  position:static;
+  position:absolute;
   display:flex;
   flex-flow:wrap;
   justify-content:space-between;
@@ -231,8 +231,8 @@ a:hover {
   width:calc(100% + 1.3px);
   left:0px;
   right:0px;
-  height:100vh;
-  z-index:-2;
+  height:calc(100vh - 145px);
+  z-index:-1;
   background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
 }
 
@@ -275,24 +275,31 @@ a:hover {
 
 #inspired-image-blob {
   position:absolute;
-  z-index:1;
+  z-index:-1;
   max-width:100vw;
-  bottom:220px;
+  bottom:120px;
   right:0px;
 }
 
 #blob-one {
   position:absolute;
   z-index:-2;
-  max-width:100vw;
-  bottom:220px;
-  right:0px;
+  max-width:90vw;
+  bottom:120px;
+  right:5px;
+}
+
+.home-container-container {
+  position:absolute;
+  margin-top:100vh;
+  width:calc(100% + 1.3px);
+  z-index:-1;
 }
 
 .home-container-two {
   position:static;
   top:100%;
-  width:calc(100% + 1.3px);
+  width:100%;
   left:0;
   right:0;
   height:100%;
@@ -311,6 +318,7 @@ a:hover {
 
 .home-container-three {
   position:static;
+  margin-top:20px;
   width:calc(100% + 1.3px);
   left:0;
   right:0;
@@ -345,7 +353,3 @@ border:1px solid #000;
 .services td {
   padding:15px;
 } 
-
-.home-container-container {
-  position:static;
-}
