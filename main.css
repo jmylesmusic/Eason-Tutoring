@@ -200,7 +200,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width:calc(100% + 1.3px);
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
@@ -228,7 +228,7 @@ a:hover {
   align-content:flex-start;
   row-gap: 20px;
   top:145px;
-  max-width:100vw;
+  width:calc(100% + 1.3px);
   left:0px;
   right:0px;
   height:100vh;
@@ -301,9 +301,9 @@ a:hover {
 }
 
 .home-container-two > div {
-  margin-top:20px;
+  margin-top:40px;
   padding:15px;
-  max-width:80%;
+  max-width:70%;
   margin-left:auto;
   margin-right:auto;
   font-size: 20px;
