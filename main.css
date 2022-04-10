@@ -227,12 +227,12 @@ a:hover {
   align-items:center;
   align-content:flex-start;
   row-gap: 20px;
-  top:145px;
+  top:140px;
   width:calc(100% + 1.3px);
   left:0px;
   right:0px;
   height:calc(100vh - 145px);
-  z-index:-1;
+  z-index:-2;
   background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
 }
 
@@ -298,7 +298,6 @@ a:hover {
 
 .home-container-two {
   position:static;
-  top:100%;
   width:100%;
   left:0;
   right:0;
