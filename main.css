@@ -284,7 +284,7 @@ a:hover {
   }
 }
 
-#about-body{
+#home-body{
   background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
   height:100vh;
 }
