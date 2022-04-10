@@ -33,3 +33,7 @@ window.onresize = function() {
     var img = document.getElementById('inspired').offsetWidth;
     document.documentElement.style.setProperty('--width', img + 'px');
 };
+
+const Parallax = require('parallax-js');
+var scene = document.getElementsByClassName('home-container-one');
+var parallaxInstance = new Parallax(scene);

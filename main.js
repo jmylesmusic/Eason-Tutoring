@@ -21,4 +21,4 @@ var sal = require('sal.js');
 sal({once: false,
 disabled: false});
 
-import Parallax from 'parallax-js';
+
