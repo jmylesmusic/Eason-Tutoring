@@ -20,3 +20,11 @@ function closeMenu() {
 var sal = require('sal.js');
 sal({once: false,
 disabled: false});
+
+var contHeight = document.getElementsByClassName('home-container-two').offsetHeight;
+document.documentElement.style.setProperty('--height', contHeight +'px');
+
+window.onresize = function() {
+    var contHeight = document.getElementsByClassName('home-container-two').offsetHeight;
+    document.documentElement.style.setProperty('--height', contHeight +'px');
+};

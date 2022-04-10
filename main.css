@@ -12,7 +12,7 @@
     --color6: #404040;
     --text: #000;
     --font:'Quicksand', sans-serif;
-    --width: 0px;
+    --height: 0px;
 }
 
 /* Make Gradients https://colordesigner.io/gradient-generator/?mode=rgb#FA7C92-6EC4DB */
@@ -295,7 +295,7 @@ a:hover {
   width:calc(100% + 1.3px);
   left:0;
   right:0;
-  height:50vh;
+  height:100%;
   background-color: var(--background);
   z-index:-1;
 }
@@ -311,7 +311,7 @@ a:hover {
 
 .home-container-three {
   position:absolute;
-  top:150%;
+  margin-top:calc(100vh + var(--height));
   width:calc(100% + 1.3px);
   left:0;
   right:0;
@@ -320,7 +320,6 @@ a:hover {
 }
 
 #services-header{
-  display: block;
   font-size: 50px;
   color:var(--color5);
   width:70%;
@@ -329,7 +328,6 @@ a:hover {
 }
 
 .services {
-  display:contents;
   width:70%;
   margin-left:auto;
   margin-right:auto;
