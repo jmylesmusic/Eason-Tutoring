@@ -27,6 +27,5 @@ var image = document.getElementById('inspired-image-blob');
 new simpleParallax(image, {
     orientation: 'right',
 	overflow: true,
-    customContainer: ".home-container-one"
 });
 

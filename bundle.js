@@ -34,3 +34,7 @@ window.onresize = function() {
     document.documentElement.style.setProperty('--width', img + 'px');
 };
 
+
+
+
+
