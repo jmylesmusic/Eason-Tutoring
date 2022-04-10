@@ -22,3 +22,11 @@ sal({once: false,
 disabled: false});
 
 
+const simpleParallax = require('simpleParallax.js');
+var image = document.getElementById('inspired-image-blob');
+new simpleParallax(image, {
+    orientation: 'right',
+	overflow: true,
+    customContainer: ".home-container-one"
+});
+
