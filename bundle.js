@@ -34,6 +34,9 @@ window.onresize = function() {
     document.documentElement.style.setProperty('--width', img + 'px');
 };
 
-const Parallax = require('parallax-js');
-var scene = document.getElementsByClassName('home-container-one');
-var parallaxInstance = new Parallax(scene);
+
+const simpleParallax = require('simple-parallax-js');
+var image = document.getElementById('blob-one');
+new simpleParallax(image, {
+	scale: 1.5
+});
