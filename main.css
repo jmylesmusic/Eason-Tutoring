@@ -293,6 +293,7 @@ a:hover {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  z-index:-1;
 }
 
 .custom-shape-divider-bottom-1649565645 svg {
@@ -307,9 +308,13 @@ a:hover {
   fill: #F8F9F9;
 }
 
-#about-container-one {
+.about-container-one {
   position:absolute;
-  width: 100%;
+  top:98vh;
+  width:calc(100% + 1.3px);
+  left:0;
+  right:0;
   height:100vh;
   background-color: var(--background);
+  z-index:-1;
 }
