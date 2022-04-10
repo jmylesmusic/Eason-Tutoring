@@ -34,8 +34,7 @@ window.onresize = function() {
     document.documentElement.style.setProperty('--width', img + 'px');
 };
 
-
-const simpleParallax = require('simple-parallax-js');
+const simpleParallax = require('node_modules\simple-parallax-js\src\simpleParallax.js');
 var image = document.getElementById('blob-one');
 new simpleParallax(image, {
 	scale: 1.5

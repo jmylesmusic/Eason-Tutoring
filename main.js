@@ -22,8 +22,3 @@ sal({once: false,
 disabled: false});
 
 
-const simpleParallax = require('simple-parallax-js');
-var image = document.getElementById('blob-one');
-new simpleParallax(image, {
-	scale: 1.5
-});

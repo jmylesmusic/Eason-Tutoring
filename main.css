@@ -231,7 +231,7 @@ a:hover {
   max-width:100vw;
   left:0px;
   right:0px;
-  height:200vh;
+  height:100vh;
   z-index:-1;
   background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
 }
