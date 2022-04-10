@@ -117,26 +117,33 @@ a:hover {
     grid-template-columns:repeat(1, 1fr);
     border-radius: 0 0 25px 25px;
     background-color: var(--color6);
-    transition: 1s;
+    transition: 0.8s ease-in-out;
     text-align: center;
     border-bottom:#000 solid 1px;
     opacity:0;
-    height:600px;
+    height:80vh;
+    z-index:-2;
   }   
   
   .nav-menu.active {
     position:absolute;
-    display:flex;
     top:135px;
     width:90vw;
     left:auto;
     right:auto;
-    transition: 1s;
+    margin-left:0;
+    font-size:25px;
+    font-weight:500;
+    flex-direction: column;
+    grid-template-columns:repeat(1, 1fr);
+    border-radius: 0 0 25px 25px;
+    background-color: var(--color6);
+    transition: 0.8s ease-in-out;
     text-align: center;
-    padding:none;
-    height:600px;
     border-bottom:#000 solid 1px;
     opacity:1;
+    height:80vh;
+    z-index:-2;
   }   
   
   .nav-item {
@@ -318,7 +325,7 @@ a:hover {
 .home-container-three {
   position:static;
   margin-top:20px;
-  width:calc(100% + 1.3px);
+  width:100%;
   left:0;
   right:0;
   height:100vh;
@@ -351,4 +358,5 @@ border:1px solid #000;
 
 .services td {
   padding:15px;
+  vertical-align: top;
 } 
