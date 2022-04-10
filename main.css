@@ -318,3 +318,29 @@ a:hover {
   background-color: var(--background);
   z-index:-1;
 }
+
+#slogan{
+  position:absolute;
+  left:20px;
+  top:145px;
+  color:var(--background);
+  font-size: 50px;
+}
+
+#inspired-image-blob {
+  position:absolute;
+  top: 22%;
+  right:20px;
+  max-width:50vw;
+  z-index:-1;
+
+}
+
+#blob-one {
+  position:absolute;
+  display:flexbox;
+  top: 25%;
+  right:10px;
+  max-width:40vw;
+  z-index:-2;
+}
