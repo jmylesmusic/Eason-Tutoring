@@ -170,94 +170,6 @@ a:hover {
   }
 }
 
-.home-container {
-  position:relative;
-  margin-top:145px;
-  left:0;
-  right:0;
-  max-height:75vh;
-  z-index:-4;
-}
-
-#inspired {
-  position: relative;
-  display:block;
-  max-width:100%;
-  max-height:75vh;
-  margin-left:auto;
-  margin-right:auto;
-  z-index:-4;
-}
-
-.home-container p {
-  position: absolute;
-  display:block;
-  opacity:0;
-  transform: translate(-50%, 50%);
-  margin: 0;
-  color:var(--background);
-  font-size:2.5vw;
-  font-weight:400;
-  text-shadow:-1px 2px var(--color6);
-  animation:fadeIn forwards 2s;
-  animation-delay:0.5s;
-  z-index:-4;
-}
-
-.home-container div {
-  position: absolute;
-  display:block;
-  opacity:0;
-  color:var(--background);
-  text-shadow:-2px 2px var(--color6);
-  bottom:20px;
-  text-align: center;
-  font-size: 1.5vw;
-  width:100%;
-  font-weight:300;
-  animation:fadeInSubtext forwards 2s;
-  animation-delay:1.5s;
-}
-
-.container-two {
-  position:relative;
-  display:block;
-  top:0;
-  background-color:var(--color5);
-  width:var(--width);
-  margin-left:auto;
-  margin-right:auto;
-  z-index:-1;
-  color:var(--background);
-}
-
-.container-two div {
-  color:var(--color6);
-  padding: 10px;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.container-three {
-  position:relative;
-  display:block;
-  top:0;
-  background-color:var(--color4);
-  width:var(--width);
-  margin-left:auto;
-  margin-right:auto;
-  z-index:-1;
-  color:var(--background);
-  height:20vh;
-}
-
-.container-three div {
-  padding: 10px;
-  font-size: 20px;
-  text-align: justify;
-}
-
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -282,11 +194,6 @@ a:hover {
     bottom:5%;
     left:0%;
   }
-}
-
-#home-body{
-  background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
-  height:100vh;
 }
 
 .custom-shape-divider-bottom-1649565645 {
@@ -326,6 +233,7 @@ a:hover {
   right:0px;
   height:100vh;
   z-index:-1;
+  background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
 }
 
 .text {
@@ -339,7 +247,7 @@ a:hover {
   color:var(--background);
   align-self: auto;
   font-size: 5vh;
-  font-weight: 400;
+  font-weight: 500;
   z-index:-1;
   margin:auto;
   padding:15px;
@@ -350,7 +258,7 @@ a:hover {
   align-self:auto;
   color:#f1f2f2;
   font-size: 2vh;
-  font-weight: 400;
+  font-weight: 300;
   margin:auto;
   z-index:-1;
   padding:15px;

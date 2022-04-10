@@ -18,4 +18,7 @@ function closeMenu() {
 }
 
 var sal = require('sal.js');
-sal();
+sal({once: false,
+disabled: false});
+
+import Parallax from 'parallax-js';
