@@ -24,6 +24,7 @@ body {
   font-family: var(--font);
   font-weight: 500;
   overflow-x: hidden;
+  width:100vw;
 }
 
 
