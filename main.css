@@ -345,25 +345,25 @@ a:hover {
   margin-right:auto;
 }
 
-.services {
-  width:70%;
-  max-height: 40vh;
+.services-table {
+  margin-top: 50px;
+  padding:20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
   margin-left:auto;
   margin-right:auto;
-  text-align: center;
-  border-collapse: collapse;
-  margin-top:50px;
-  font-size:1.8vw;
-}
-.services th,td {
-border:1px solid #000;
+  width:60%;
+  text-align:center;
+  background-color: var(--color1);
+  border-radius: 25px;
+  border: 5px solid var(--color6);
 }
 
-.services th {
-  width:calc(35% / 2);
+.services-table > .heading {
+  font-weight: 800;
 }
-
-.services td {
-  padding:1.5vw;
-  vertical-align: top;
-} 
