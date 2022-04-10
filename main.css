@@ -24,6 +24,8 @@ body {
   font-family: var(--font);
   font-weight: 500;
   overflow-x: hidden;
+
+  margin:0;
 }
 
 
@@ -39,7 +41,7 @@ body {
 }
 
 #logo{
-  position: inherit;
+  position: static;
   display:block;
   height:125px;
   padding:10px;
@@ -95,7 +97,7 @@ a:hover {
   }
 
   #logo {
-    position: absolute;
+    position: static;
     display:block;
     width:auto;
     margin-left:auto;
@@ -126,7 +128,6 @@ a:hover {
   
   .nav-menu.active {
     position:absolute;
-    display:flex;
     top:135px;
     width:90vw;
     left:auto;
@@ -204,7 +205,7 @@ a:hover {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  z-index:-1;
+  z-index:0;
 }
 
 .custom-shape-divider-bottom-1649565645 svg {
@@ -220,7 +221,7 @@ a:hover {
 }
 
 .home-container-one {
-  position:absolute;
+  position:static;
   display:flex;
   flex-flow:wrap;
   justify-content:space-between;
@@ -232,7 +233,7 @@ a:hover {
   left:0px;
   right:0px;
   height:100vh;
-  z-index:-1;
+  z-index:-3;
   background-image: linear-gradient(to bottom right, var(--color1), var(--color2));
 }
 
@@ -290,7 +291,7 @@ a:hover {
 }
 
 .home-container-two {
-  position:absolute;
+  position:static;
   top:100%;
   width:calc(100% + 1.3px);
   left:0;
@@ -310,12 +311,9 @@ a:hover {
 }
 
 .home-container-three {
-  position:absolute;
-  margin-top:calc(100vh + var(--height));
   width:calc(100% + 1.3px);
   left:0;
   right:0;
-  height:100vh;
   z-index:-1;
 }
 
