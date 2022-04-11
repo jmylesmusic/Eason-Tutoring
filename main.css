@@ -368,8 +368,8 @@ a:hover {
 .subject {
   min-width:250px;
   max-width:calc(25% - 20px);
-  background-color: var(--color1);
-  border-radius: 25px;
+  background-color: #e9f3f6;
+  border-radius: 10px 25px 10px 25px;
   margin:5px;
 }
 .heading {
@@ -377,9 +377,18 @@ a:hover {
   font-size:24px;
   padding-top:5px;
   padding-bottom: 20px;
+  padding: 10px;
+  max-width:90%;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
 }
 .table-content {
   padding: 10px;
-  max-width:100%;
+  max-width:80%;
   padding-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:justify;
+  bottom: 0;
 }
