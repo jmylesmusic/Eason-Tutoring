@@ -462,15 +462,14 @@ a:hover {
   margin-left:auto;
   margin-right:auto;
 }
-
 .text {
-  position: absolute;
+  position: static;
   width: 450px;
   left: 50%;
   margin-left: -225px;
   height: 40px;
-  top: 50%;
-  margin-top: -20px;
+  top: 150px;
+  margin-top: 20px;
 }
 
 p {
@@ -480,9 +479,10 @@ p {
 }
 
 .word {
-  position: absolute;
+  position: static;
   width: 220px;
   opacity: 0;
+  margin-left: 50px;
 }
 
 .letter {
@@ -506,4 +506,25 @@ p {
   transform: rotateX(0deg);
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
 
