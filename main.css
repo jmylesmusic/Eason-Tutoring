@@ -111,7 +111,7 @@ a:hover {
   .nav-menu {
     position:absolute;
     top:135px;
-    width:0vw;
+    width:85vw;
     left:auto;
     right:-100vw;
     margin-left:0;
@@ -126,6 +126,7 @@ a:hover {
     border-bottom:#000 solid 1px;
     opacity:0;
     height:calc(75vh - 45px);
+    overflow-x: hidden;
   }   
   
   .nav-menu.active {
@@ -159,6 +160,14 @@ a:hover {
     opacity:1;
   } 
   
+  #image-blob {
+    position:absolute;
+    z-index:-1;
+    max-width:95vw;
+    bottom:70px;
+    right:0;
+    overflow-x: hidden;
+  }
   .hamburger {
     position:absolute;
     display: block;
@@ -294,14 +303,13 @@ a:hover {
 }
 
 
-#inspired-image-blob {
+#image-blob {
   position:absolute;
   z-index:-1;
   max-width:95vw;
   bottom:90px;
   right:0;
   overflow-x: hidden;
-
 }
 
 #blob-one {
@@ -451,7 +459,6 @@ a:hover {
   width: 100%; 
   z-index:0;
   right:0;
-
   overflow: hidden;
 }
 
