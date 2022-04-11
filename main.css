@@ -35,7 +35,7 @@ body {
   display: flex;
   align-items: flex-end;
   background-color:var(--background);
-  width:calc(100vw + 1.3px);
+  width:100vw + 1.3px);
   height:145px;
   left:0;
   top:0;
@@ -96,6 +96,8 @@ a:hover {
   .navbar {
     position:fixed;
     justify-content:center;
+    width:100vw;
+    overflow:hidden;
   }
 
   #logo {
@@ -312,10 +314,11 @@ a:hover {
 .home-container-container {
   position:absolute;
   margin-top:100vh;
-  width:100vw;
+  width: calc(100vw + 1.3px);
   left:0;
   right:0;
   z-index:-1;
+  overflow-x: hidden;
 }
 
 .home-container-two {
