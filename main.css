@@ -313,12 +313,14 @@ a:hover {
   position:absolute;
   margin-top:100vh;
   width:100vw;
+  left:0;
+  right:0;
   z-index:-1;
 }
 
 .home-container-two {
   position:static;
-  width:calc(100vw + 1.3px);
+  width:100%;
   left:0;
   right:0;
   height:100%;
@@ -342,7 +344,7 @@ a:hover {
 .home-container-three {
   position:static;
   margin-top:20px;
-  width:calc(100vw + 1.3px);
+  width:100%;
   left:0;
   right:0;
   z-index:-2;
@@ -360,18 +362,12 @@ a:hover {
 }
 
 .services-table {
-  display:-webkit-flex;
   display:flex;
-  -webkit-flex-direction:row;
   flex-direction:row;
-  -webkit-flex-wrap:wrap;
   flex-wrap:wrap;
-  -webkit-justify-content:center;
   justify-content:center;
-  -webkit-align-content:flex-start;
   align-content:flex-start;
   margin-top: 50px;
-  padding:20px;
   margin-left:auto;
   margin-right:auto;
   width:70%;
@@ -389,6 +385,7 @@ a:hover {
 .subject:hover {
   transform: scale(105%);
   cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 
 .heading {
