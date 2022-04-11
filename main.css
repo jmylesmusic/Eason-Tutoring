@@ -160,14 +160,6 @@ a:hover {
     opacity:1;
   } 
   
-  #image-blob {
-    position:absolute;
-    z-index:-1;
-    max-width:95vw;
-    bottom:70px;
-    right:0;
-    overflow-x: hidden;
-  }
   .hamburger {
     position:absolute;
     display: block;
@@ -307,7 +299,7 @@ a:hover {
   position:absolute;
   z-index:-1;
   max-width:95vw;
-  bottom:90px;
+  bottom:70px;
   right:0;
   overflow-x: hidden;
 }
