@@ -111,7 +111,7 @@ a:hover {
   .nav-menu {
     position:absolute;
     top:135px;
-    width:80vw;
+    width:0;
     left:auto;
     right:-85vw;
     margin-left:0;
@@ -338,13 +338,15 @@ a:hover {
 }
 
 #line-two {
-  margin-top: 40px; 
+  margin-top: 40px;
+  left:0;
+  right:0; 
 }
 
 .home-container-three {
   position:static;
   margin-top:20px;
-  width:100%;
+  width:100vw;
   left:0;
   right:0;
   z-index:-2;
@@ -419,7 +421,7 @@ a:hover {
   position: static;
   top: 0;
   margin-left: -20px;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   line-height: 0;
 }
@@ -427,7 +429,7 @@ a:hover {
 .custom-shape-divider-top-1649656814 svg {
   position: relative;
   display: block;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   transform: rotateY(180deg);
 }
@@ -442,7 +444,7 @@ a:hover {
   background-image: linear-gradient(to top left, var(--color1), var(--color2));
   height:40vh;
   z-index:-2;
-  width: 100%;
+  width: 100vw;
   margin-left:-20px;
   right:0;
   z-index:0;
