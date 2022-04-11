@@ -111,7 +111,7 @@ a:hover {
     top:135px;
     width:80vw;
     left:auto;
-    right:-80vw;
+    right:-85vw;
     margin-left:0;
     font-size:25px;
     font-weight:500;
@@ -123,14 +123,14 @@ a:hover {
     text-align: center;
     border-bottom:#000 solid 1px;
     opacity:0;
-    height:calc(75vh - 25px);
+    height:calc(75vh - 45px);
     z-index:-2;
   }   
   
   .nav-menu.active {
     position:absolute;
     top:135px;
-    width:80vw;
+    width:85vw;
     left:auto;
     right:0;
     margin-left:0;
@@ -144,7 +144,7 @@ a:hover {
     text-align: center;
     border-bottom:#000 solid 1px;
     opacity:1;
-    height:calc(75vh - 25px)
+    height:calc(75vh - 45px)
     z-index:-2;
   }   
   
