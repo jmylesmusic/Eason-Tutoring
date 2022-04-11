@@ -20,3 +20,10 @@ function closeMenu() {
 var sal = require('sal.js');
 sal({once: false,
 disabled: false});
+
+const container = document.querySelector('.slider');
+const options = {
+      listener: container,
+      multiplier: 1 // default: 1
+};
+const drag = new Drag(options);

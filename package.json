@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@mystroken/drag": "^0.2.0",
     "lax.js": "^2.0.3",
     "parallax-js": "^3.1.0",
     "parallaxjs": "^2.1.0",
