@@ -117,13 +117,13 @@ a:hover {
     font-weight:500;
     flex-direction: column;
     grid-template-columns:repeat(1, 1fr);
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 0 25px;
     background-color: var(--color6);
     transition: 0.8s ease-in-out;
     text-align: center;
     border-bottom:#000 solid 1px;
     opacity:0;
-    height:80vh;
+    height:75vh;
     z-index:-2;
   }   
   
@@ -138,13 +138,13 @@ a:hover {
     font-weight:500;
     flex-direction: column;
     grid-template-columns:repeat(1, 1fr);
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 0 25px;
     background-color: var(--color6);
     transition: 0.8s ease-in-out;
     text-align: center;
     border-bottom:#000 solid 1px;
     opacity:1;
-    height:80vh;
+    height:75vh;
     z-index:-2;
   }   
   
