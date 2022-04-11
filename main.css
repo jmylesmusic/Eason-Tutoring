@@ -339,7 +339,6 @@ a:hover {
   width:100%;
   left:0;
   right:0;
-  height:100vh;
   z-index:-1;
 }
 
@@ -410,8 +409,8 @@ a:hover {
   height: 30px;
 }
 
-.custom-shape-divider-top-1649656069 {
-  position: absolute;
+.custom-shape-divider-top-1649656814 {
+  position: static;
   top: 0;
   left: 0;
   width: 100%;
@@ -419,25 +418,26 @@ a:hover {
   line-height: 0;
 }
 
-.custom-shape-divider-top-1649656069 svg {
+.custom-shape-divider-top-1649656814 svg {
   position: relative;
   display: block;
-  width: calc(110% + 1.3px);
+  width: calc(100% + 1.3px);
   height: 100px;
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1649656069 .shape-fill {
-  fill: black;
+.custom-shape-divider-top-1649656814 .shape-fill {
+  fill: #F8F9F9;
 }
 
 .home-container-four {
   display:static;
-  margin-top:0;
+  margin-top:-100px;
   background-image: linear-gradient(to top left, var(--color1), var(--color2));
   height:20vh;
   z-index:-2;
   width: 100%;
   left:0;
   right:0;
-
+  z-index:-2;
 }
