@@ -323,12 +323,14 @@ a:hover {
 
 .home-container-two {
   position:static;
-  width:100%;
+  width: calc(100vw + 1.3px);
   left:0;
   right:0;
   height:100%;
   background-color: var(--background);
   z-index:-1;
+  overflow-x: hidden;
+
 }
 
 .home-container-two > div {
@@ -338,6 +340,7 @@ a:hover {
   margin-left:auto;
   margin-right:auto;
   font-size: 20px;
+  
 }
 
 #line-two {
@@ -349,12 +352,13 @@ a:hover {
 .home-container-three {
   position:static;
   margin-top:20px;
-  width:100vw;
+  width: calc(100vw + 1.3px);
   left:0;
   right:0;
   z-index:-2;
   height:auto;
   padding-bottom:100px;
+  overflow: hidden;
 }
 
 #services-header{
@@ -367,6 +371,7 @@ a:hover {
 }
 
 .services-table {
+  position:static;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -424,7 +429,7 @@ a:hover {
   position: static;
   top: 0;
   margin-left: -20px;
-  width: 100vw;
+  width: calc(100vw + 1.3px);  
   overflow: hidden;
   line-height: 0;
 }
@@ -432,7 +437,7 @@ a:hover {
 .custom-shape-divider-top-1649656814 svg {
   position: relative;
   display: block;
-  width: 100vw;
+  width: calc(100vw + 1.3px);
   height: 100px;
   transform: rotateY(180deg);
 }
@@ -447,10 +452,10 @@ a:hover {
   background-image: linear-gradient(to top left, var(--color1), var(--color2));
   height:40vh;
   z-index:-2;
-  width: 100vw;
+  width: calc(100vw + 1.3px);  
   margin-left:-20px;
-  right:0;
   z-index:0;
+  overflow: hidden;
 }
 
 #your-partners {
