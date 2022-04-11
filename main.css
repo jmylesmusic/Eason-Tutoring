@@ -26,7 +26,6 @@ body {
   left:0;
   right:0;
   overflow-x: hidden;
-  width:100vw;
 }
 
 
@@ -35,7 +34,7 @@ body {
   display: flex;
   align-items: flex-end;
   background-color:var(--background);
-  width:100vw + 1.3px);
+  width:100vw;
   height:145px;
   left:0;
   top:0;
@@ -97,7 +96,6 @@ a:hover {
     position:fixed;
     justify-content:center;
     width:100vw;
-    overflow:hidden;
   }
 
   #logo {
@@ -113,7 +111,7 @@ a:hover {
   .nav-menu {
     position:absolute;
     top:135px;
-    width:0;
+    width:85vw;
     left:auto;
     right:-85vw;
     margin-left:0;
@@ -128,7 +126,6 @@ a:hover {
     border-bottom:#000 solid 1px;
     opacity:0;
     height:calc(75vh - 45px);
-    z-index:-2;
   }   
   
   .nav-menu.active {
@@ -149,7 +146,7 @@ a:hover {
     border-bottom:#000 solid 1px;
     opacity:1;
     height:calc(75vh - 45px);
-    z-index:-2;
+    z-index: 1;
   }   
   
   .nav-item {
@@ -230,7 +227,7 @@ a:hover {
 .custom-shape-divider-bottom-1649565645 svg {
   position: relative;
   display: block;
-  width: calc(100vw + 1.3px);
+  width: 100%;
   height: 150px;
   transform: rotateY(180deg);
 }
@@ -248,7 +245,7 @@ a:hover {
   align-content:flex-start;
   row-gap: 20px;
   top:140px;
-  width:calc(100vw + 1.3px);
+  width:100%;
   left:0px;
   right:0px;
   height:calc(100vh - 145px);
@@ -345,8 +342,6 @@ a:hover {
 
 #line-two {
   margin-top: 40px;
-  left:0;
-  right:0; 
 }
 
 .home-container-three {
