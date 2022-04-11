@@ -410,8 +410,8 @@ a:hover {
   height: 30px;
 }
 
-.custom-shape-divider-top-1649654878 {
-  position: static;
+.custom-shape-divider-top-1649656069 {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -419,21 +419,20 @@ a:hover {
   line-height: 0;
 }
 
-.custom-shape-divider-top-1649654878 svg {
+.custom-shape-divider-top-1649656069 svg {
   position: relative;
   display: block;
-  width: 100%;
+  width: calc(110% + 1.3px);
   height: 100px;
-  left:0;
 }
 
-.custom-shape-divider-top-1649654878 .shape-fill {
-  fill: #F8F9F9;
+.custom-shape-divider-top-1649656069 .shape-fill {
+  fill: black;
 }
 
 .home-container-four {
   display:static;
-  margin-top:-100px;
+  margin-top:0;
   background-image: linear-gradient(to top left, var(--color1), var(--color2));
   height:20vh;
   z-index:-2;
