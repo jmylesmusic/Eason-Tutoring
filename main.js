@@ -27,3 +27,12 @@ const options = {
       multiplier: 1 // default: 1
 };
 const drag = new Drag(options);
+
+import {tns} from './src/tiny-slider.js';
+
+var slider = tns({
+  container: '.my-slider',
+  items: 3,
+  slideBy: 'page',
+  autoplay: true
+});
