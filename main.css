@@ -469,24 +469,25 @@ a:hover {
 }
 
 .wrapper{
-    height: 40px;
-    padding-top: 24px;
+    height: 44px;
+    padding-top: 20px;
     display: flex;
-    margin-left:calc(15vw + 20px);
-    font-size:24px;
+    margin-left:15vw;
+    font-size:20px;
     color:var(--background);
 }
 .words{
     overflow: hidden;
 }
-span{
+.word-rotate {
     display: block;
     height: 100%;
-    font-size:24px;
+    font-size:20px;
     animation: spin_words 6s infinite;
     margin-left:auto;
     margin-right:auto;
     text-align: left;
+ 
 }
 
 #span-one {
@@ -498,7 +499,7 @@ span{
 }
 
 #span-three {
-  color:var(--background);
+  color:var(--color3);
 }
 
 @keyframes spin_words{
