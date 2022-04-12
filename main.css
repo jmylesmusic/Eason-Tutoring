@@ -39,6 +39,7 @@ body {
   left:0;
   top:0;
   right:0;
+  border-radius: 0 0 5px 5px;
 }
 
 #logo{
@@ -531,7 +532,7 @@ a:hover {
 
 .who-we-are {
   color:var(--background);
-  margin-top:40px;
+  margin-top:px;
   padding:15px;
   max-width:70%;
   margin-left:auto;
