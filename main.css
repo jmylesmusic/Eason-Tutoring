@@ -472,7 +472,9 @@ a:hover {
     height: 70px;
     padding-top: 50px;
     display: flex;
-    margin-left:15vw;
+    margin-left:calc(15vw + 20px);
+    font-size:30px;
+    color:var(--background);
 }
 .words{
     overflow: hidden;
@@ -491,6 +493,13 @@ span{
   color:var(--color3);
 }
 
+#span-two {
+  color:brown;
+}
+
+#span-three {
+  color:var(--color2);
+}
 
 @keyframes spin_words{
     10%{
