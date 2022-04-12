@@ -392,7 +392,7 @@ a:hover {
   transform: scale(105%);
   cursor: pointer;
   transition: 0.2s ease-in;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
 
 .heading {
@@ -470,20 +470,28 @@ a:hover {
 
 .wrapper{
     height: 70px;
-    padding: 50px 30px;
+    padding-top: 50px;
     display: flex;
-  }
+    margin-left:15vw;
+}
 .words{
     overflow: hidden;
 }
 span{
     display: block;
     height: 100%;
-    padding-left: 10px;
     font-size:30px;
     animation: spin_words 6s infinite;
-    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
 }
+
+#span-one {
+  color:var(--color3);
+}
+
+
 @keyframes spin_words{
     10%{
         transform: translateY(-112%);
