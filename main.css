@@ -357,7 +357,7 @@ a:hover {
   overflow: hidden;
 }
 
-#services-header{
+#header{
   font-size: 40px;
   color:var(--color5);
   width:70%;
@@ -392,6 +392,7 @@ a:hover {
   transform: scale(105%);
   cursor: pointer;
   transition: 0.5s ease-in-out;
+  border:var(--color1);
 }
 
 .heading {
@@ -465,8 +466,4 @@ a:hover {
 
 .text{
   color:var(--background);
-}
-
-.slider {
-  margin-top: 200px;
 }
