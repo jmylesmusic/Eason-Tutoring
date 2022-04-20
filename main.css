@@ -387,12 +387,13 @@ a:hover {
   background-color: #e9f3f6;
   border-radius: 10px 25px 10px 25px;
   margin:5px;
+  transition: 0.4s ease-in-out !important;
 }
 
 .subject:hover {
   transform: scale(105%);
+  transition: 0.4s ease-in-out;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
   box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
 
