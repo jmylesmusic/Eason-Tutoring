@@ -586,11 +586,6 @@ a:hover {
 
 .about-container-one {
   position:absolute;
-  display:flex;
-  flex-flow:wrap;
-  justify-content:space-between;
-  align-items:center;
-  align-content:flex-start;
   row-gap: 20px;
   top:140px;
   width:100%;
@@ -601,3 +596,10 @@ a:hover {
   overflow-x: hidden;
   background-image: linear-gradient(to bottom right, var(--color4), var(--color2));
 }
+
+.about-wrapper{
+  height: 44px;
+  padding-top: 20px;
+  width:70%;
+  font-size:20px;
+  color:var(--background);
