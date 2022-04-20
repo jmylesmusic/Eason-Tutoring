@@ -392,7 +392,7 @@ a:hover {
 .subject:hover {
   transform: scale(105%);
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.2s ease-in-out;
   box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
 
@@ -599,7 +599,9 @@ a:hover {
 
 .about-wrapper{
   height: 44px;
-  padding-top: 20px;
+  padding-top: 40px;
   width:70%;
+  margin-left:auto;
+  margin-right:auto;
   font-size:20px;
   color:var(--background);
