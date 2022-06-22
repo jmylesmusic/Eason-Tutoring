@@ -36,3 +36,5 @@ var slider = tns({
   slideBy: 'page',
   autoplay: true
 });
+
+const simpleParallax = require('simple-parallax-js');
